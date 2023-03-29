@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import { fadeIn } from '../utils/motion';
 
-const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
+const ExploreCard = ({ id, imgUrl, title,subtitle, index, active, handleClick }) => (
   <motion.div
     variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
     className={`relative ${
@@ -23,13 +23,9 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
       </h3>
     ) : (
       <div className="absolute bottom-0 p-8 justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
-        <div
-          className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
-        >
-          <img src="/headset.svg" className="w-1/2 h-1/2 object-contain" />
-        </div>
+        
         <p className="font-normal text-[16px] leading-[20px] text-white uppercase">
-          Enter the Metaverse
+          {subtitle}
         </p>
         <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
           {title}

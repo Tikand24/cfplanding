@@ -20,7 +20,7 @@ const GetStarted = () => (
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="/get-started.png"
+          src="/get-started.jpg"
           className="w-[90%] h-[90%] object-contain"
         />
       </motion.div>
@@ -28,11 +28,11 @@ const GetStarted = () => (
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
-        <TypingText title="| How Metalay Works" />
-        <TitleText title={<>Get started with just a few clicks</>} />
+        <TypingText title="| Asociados de CFP" />
+        <TitleText title={<>Poblacion principal de CFP</>} />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
-          {startingFeatures.map((feature, index) => (
-            <StartSteps key={feature} number={`${index < 10 ? '0' : ''} ${index + 1}`} text={feature} />
+          {startingFeatures.map((feature) => (
+            <StartSteps key={feature.title} number={feature.number} text={feature.title} />
           ))}
         </div>
       </motion.div>

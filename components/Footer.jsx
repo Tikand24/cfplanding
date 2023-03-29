@@ -16,7 +16,7 @@ const Footer = () => (
       <div className="flex items-center justify-between flex-wrap gap-5">
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           {' '}
-          Enter Metalay
+          Contactar CFP
         </h4>
         <button
           type="button"
@@ -28,16 +28,16 @@ const Footer = () => (
             className="w-[24px] h-[24px] object-contain"
           />
           <span className="font-normal texxt-[16px] text-white">
-            Enter metalay
+            CFP App
           </span>
         </button>
       </div>
       <div className="flex flex-col">
-        <div className="mb-[50px] h-[2px] bg-white opacity-10">
+        <div className="mb-[50px] h-[2px] bg-white opacity-50">
           <div className="flex items-center justify-between flex-wrap gap-4">
-            <h4 className="font-extrabold text-[24px] text-white">Metalay</h4>
-            <p className="font-noraml text-[14px] text-white opacity-50">
-              copyright All reserved
+            <h4 className="font-extrabold text-[24px] text-white">cfpagropecuario@hotmail.com</h4>
+            <p className="font-noraml text-[14px] text-white ">
+             Desarrollado por Jonatan villalobos Guchuvo
             </p>
           </div>
         </div>
