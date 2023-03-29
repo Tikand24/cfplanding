@@ -27,17 +27,17 @@ const Footer = () => (
             alt="headset"
             className="w-[24px] h-[24px] object-contain"
           />
-          <span className="font-normal texxt-[16px] text-white">
-            CFP App
-          </span>
+          <span className="font-normal texxt-[16px] text-white">CFP App</span>
         </button>
       </div>
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-50">
           <div className="flex items-center justify-between flex-wrap gap-4">
-            <h4 className="font-extrabold text-[24px] text-white">cfpagropecuario@hotmail.com</h4>
+            <h4 className="font-extrabold text-[24px] text-white">
+              cfpagropecuario@hotmail.com
+            </h4>
             <p className="font-noraml text-[14px] text-white ">
-             Desarrollado por Jonatan villalobos Guchuvo
+              Desarrollado por Jonatan villalobos Guchuvo
             </p>
           </div>
         </div>
