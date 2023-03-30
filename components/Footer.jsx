@@ -36,7 +36,7 @@ const Footer = () => (
             <h4 className="font-extrabold text-[24px] text-white">
               cfpagropecuario@hotmail.com
             </h4>
-            <p className="font-noraml text-[14px] text-white ">
+            <p className="font-noraml text-[14px] text-white">
               Desarrollado por Jonatan villalobos Guchuvo
             </p>
           </div>

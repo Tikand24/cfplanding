@@ -13,13 +13,13 @@
 .gradient-01 {
   background-image: linear-gradient(
     270deg,
-    hsl(295deg 76% 51%) 0%,
-    hsl(284deg 70% 73%) 26%,
-    hsl(257deg 70% 86%) 39%,
-    hsl(202deg 92% 90%) 50%,
-    hsl(215deg 77% 81%) 61%,
-    hsl(221deg 73% 70%) 74%,
-    hsl(220deg 76% 51%) 100%
+    hsl(155, 63%, 20%) 0%,
+    hsl(216, 26%, 47%) 26%,
+    hsl(256, 15%, 55%) 39%,
+    hsl(203, 15%, 59%) 50%,
+    hsl(215, 24%, 58%) 61%,
+    hsl(221, 31%, 50%) 74%,
+    hsl(220, 72%, 39%) 100%
   );
   filter: blur(125px);
 }
@@ -28,7 +28,7 @@
   background: linear-gradient(
     97.86deg,
     #179f12 0%,
-    #1cb68f 53.65%,
+    #44dbb6 53.65%,
     #079a17 100%
   );
 }
@@ -40,7 +40,7 @@
   top: 0px;
   right: 0px;
 
-  background: #7aebfb;
+  background: #196b21;
   filter: blur(190px);
 }
 
@@ -59,7 +59,7 @@
   left: 20%;
   top: 5%;
 
-  background: rgba(149, 66, 232, 0.35);
+  background: rgba(132, 59, 206, 0.35);
   filter: blur(175px);
   transform: rotate(-114.2deg);
 }
@@ -71,7 +71,7 @@
   left: 30%;
   top: 10%;
 
-  background: rgba(45, 72, 152, 0.75);
+  background: rgba(28, 121, 25, 0.75);
   filter: blur(200px);
   transform: rotate(-53.13deg);
 }
@@ -91,7 +91,7 @@
   left: 0px;
   top: 0px;
 
-  background: #8d39a3;
+  background: #379e7f;
   filter: blur(175px);
 }
 
@@ -102,6 +102,6 @@
   left: 37%;
   bottom: 0;
 
-  background: #65c4fa;
+  background: #41a35e;
   filter: blur(150px);
 }
