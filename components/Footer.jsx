@@ -19,7 +19,7 @@ const Footer = () => (
           Contactar CFP
         </h4>
         <a
-          href="https://api.whatsapp.com/send/?phone=573135723058&text=Hola%2C+vi+tu+perfil+en+Pasion&type=phone_number&app_absent=0"
+          href="https://api.whatsapp.com/send/?phone=573138037661&text=Hola&type=phone_number&app_absent=0"
           target="_blank"
           rel="noreferrer"
           className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]"
