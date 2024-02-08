@@ -18,24 +18,40 @@ const Footer = () => (
           {' '}
           Contactar CFP
         </h4>
-        <button
-          type="button"
+        <a
+          href="https://api.whatsapp.com/send/?phone=573135723058&text=Hola%2C+vi+tu+perfil+en+Pasion&type=phone_number&app_absent=0"
+          target="_blank"
+          rel="noreferrer"
           className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]"
         >
           <img
-            src="/headset.svg"
-            alt="headset"
-            className="w-[24px] h-[24px] object-contain"
+            src="/whatsapp.svg"
+            alt="whatsapp"
+            className="w-[24px] h-[24px] object-contain text-white"
           />
-          <span className="font-normal texxt-[16px] text-white">CFP App</span>
-        </button>
+          <span className="font-normal texxt-[16px] text-white">WhatsApp</span>
+        </a>
       </div>
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-50">
           <div className="flex items-center justify-between flex-wrap gap-4">
-            <h4 className="font-extrabold text-[24px] text-white">
-              cfpagropecuario@hotmail.com
-            </h4>
+            <div>
+              <h4 className="font-extrabold text-[24px] text-white">
+                <a
+                  href="https://www.facebook.com/asociacionCFP"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Facebook: asociacionCFP
+                </a>
+              </h4>
+              <h4 className="font-extrabold text-[24px] text-white">
+                Telefono: 3138037661
+              </h4>
+              <h4 className="font-extrabold text-[24px] text-white">
+                Correo: cfpagropecuario@hotmail.com
+              </h4>
+            </div>
             <p className="font-noraml text-[14px] text-white">
               Desarrollado por Jonatan villalobos Guchuvo
             </p>
